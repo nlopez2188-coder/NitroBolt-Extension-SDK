@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">BlockForge</string>
+    <string name="tab_builder">Builder</string>
+    <string name="tab_converter">Converter</string>
+    <string name="tab_code_test">Code &amp; Test</string>
+    <string name="tab_guide">Docs</string>
+
+    <string name="studio_title">Extension Studio</string>
+    <string name="mode_unsandboxed">Unsandboxed</string>
+    <string name="mode_sandboxed">Sandboxed</string>
+    <string name="mode_unsandboxed_badge">0ms Instant • Full VM</string>
+    <string name="mode_sandboxed_badge">1-Frame Delay • Isolated</string>
+
+    <string name="action_templates">Templates</string>
+    <string name="action_add_block">Add Block</string>
+    <string name="action_add_menu">Add Menu</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_copy_js">Copy JS</string>
+    <string name="action_export_js">Save .js</string>
+    <string name="action_share_js">Share</string>
+    <string name="action_convert_now">Convert to Unsandboxed</string>
+    <string name="action_import_to_builder">Open in Builder</string>
+    <string name="action_run_block">Run Block</string>
+    <string name="action_load_template">Load in Builder</string>
+    <string name="action_auto_fix">Auto-Fix</string>
+
+    <string name="section_extension_meta">Extension Metadata</string>
+    <string name="section_blocks">Blocks Palette</string>
+    <string name="section_menus">Dynamic Menus</string>
+    <string name="section_safety_checks">NitroBolt Safety Audit</string>
+
+    <string name="label_extension_id">Extension ID</string>
+    <string name="label_extension_name">Display Name</string>
+    <string name="label_block_colors">Block Colors</string>
+    <string name="label_unsandboxed_guard">Enforce Unsandboxed Guard</string>
+    <string name="label_bind_vm">Bind const vm = Scratch.vm</string>
+
+    <string name="converter_title">Sandbox Migrator</string>
+    <string name="converter_subtitle">Upgrade legacy sandboxed extensions to strict unsandboxed IIFEs</string>
+    <string name="converter_input_label">Sandboxed Extension JavaScript</string>
+    <string name="converter_output_label">Unsandboxed Output</string>
+
+    <string name="code_test_title">Code &amp; VM Tester</string>
+    <string name="simulator_title">Live Block Simulator</string>
+    <string name="guide_title">NitroBolt Sandbox Guide</string>
+
+    <string name="msg_copied_clipboard">Extension JS copied to clipboard</string>
+    <string name="msg_saved_file">Saved extension script</string>
+    <string name="msg_imported_builder">Loaded converted extension into Builder</string>
+    <string name="msg_template_loaded">Template loaded into Builder</string>
+    <string name="empty_blocks_hint">No blocks yet. Tap Add Block to craft your first Scratch block.</string>
+    <string name="empty_menus_hint">No menus defined. Add a menu for dropdown inputs like [ENABLED].</string>
+    <string name="section_switches">Context Switches</string>
+    <string name="action_add_switch">Add Switch</string>
+    <string name="msg_switched_block">Switched block context</string>
+    <string name="section_custom_types">Custom Types</string>
+    <string name="action_add_custom_type">Add Type</string>
+    <string name="empty_custom_types_hint">No custom types registered. Add a Scratch.types class for complex block data.</string>
+    <string name="section_custom_shapes">Custom Shapes</string>
+    <string name="action_add_custom_shape">Add Shape</string>
+    <string name="empty_custom_shapes_hint">No custom shapes registered. Define SVG edge paths with Scratch.BlockShapes.register.</string>
+</resources>
